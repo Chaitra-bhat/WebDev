@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Box Padding Model</title>
+    <style>
+        .bluebox{
+            background-color:#3A5795;
+            color: white;
+            height:100px;
+            width: auto;
+           overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            
+        }
+        .bluebox:hover{
+            
+            overflow: visible;
+            background-color:brown;
+            
+        }
+        .pinkbox{
+            background-color: rgb(222,224,85);
+            height:100px;
+            width: 100px;
+            /*word-break: break-all;*/
+            word-break:normal;
+        }
+    .greenbox{
+            background-color:#31af37;
+            height:100px;
+            width: auto;
+        }
+    </style>
+    
+</head>
+<body>
+<div class="bluebox">
+<p>Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.Facebook.</p>    
+</div>    
+<div class="pinkbox">
+<p>Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.LOOOooooooooooooooogApple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooogApple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.Apple.</p>    
+</div>   
+<div class="greenbox">
+<p>Microsoft.</p>    
+</div>   
+</body>
+
+
+
+</html>
